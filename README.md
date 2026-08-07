@@ -18,8 +18,7 @@ Adotou-se a metodologia **Kanban** para a gestão visual de tarefas, dividida em
 ## 🚀 Como Executar o Projeto
 *(Instruções para rodar o código localmente)*
 
----
-*Projeto desenvolvido para a disciplina de Engenharia de Software - UniFECAF.*
+
 ## 🔄 Gerenciamento de Mudança de Escopo
 
 ### Motivação Operacional
@@ -35,3 +34,6 @@ A equipe de operações logísticas identificou a necessidade de classificar as 
 
 3. **Esteira de CI (`.github/workflows/`):**
    - A alteração passou automaticamente pelo pipeline de integração contínua (GitHub Actions), validando a estabilidade da aplicação.
+
+   ---
+*Projeto desenvolvido para a disciplina de Engenharia de Software - UniFECAF.*
