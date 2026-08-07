@@ -20,3 +20,18 @@ Adotou-se a metodologia **Kanban** para a gestão visual de tarefas, dividida em
 
 ---
 *Projeto desenvolvido para a disciplina de Engenharia de Software - UniFECAF.*
+## 🔄 Gerenciamento de Mudança de Escopo
+
+### Motivação Operacional
+A equipe de operações logísticas identificou a necessidade de classificar as tarefas de acordo com o nível de urgência do frete (ex.: cargas expressas vs. entregas convencionais). 
+
+### Modificações Realizadas
+1. **Modelagem e Código Source (`src/`):**
+   - A classe `GestorDeTarefas` foi refatorada para aceitar o argumento `prioridade`.
+   - Valores aceitos: `'Baixa'`, `'Média'`, `'Alta'`.
+
+2. **Garantia de Qualidade (`tests/`):**
+   - Atualizados os testes unitários no `pytest` para cobrir o atributo de prioridade sem quebrar as funcionalidades legadas.
+
+3. **Esteira de CI (`.github/workflows/`):**
+   - A alteração passou automaticamente pelo pipeline de integração contínua (GitHub Actions), validando a estabilidade da aplicação.
